@@ -1,4 +1,4 @@
 # file to test 
-require '../core.rb'
+require '../core'
 red = colorize.red("Hello")
 puts red
