@@ -1,4 +1,4 @@
 language: bash
 
 script:
-    - ruby test/test.rb 
+    - ruby test.rb 
