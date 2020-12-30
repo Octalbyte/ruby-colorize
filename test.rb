@@ -1,5 +1,5 @@
 # file to test 
 require './core'
-puts colorize
+puts core
 red = colorize.red("Hello")
 puts red
