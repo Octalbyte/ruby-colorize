@@ -9,12 +9,30 @@ end
 def colorize.blue(str)
    blue = "\x1b[34m"
    reset = "\x1b[0m"
-   str = red + str + reset
+   str = blue + str + reset
    return str
 end
 def colorize.green(str)
    green = "\x1b[32m"
    reset = "\x1b[0m"
-   str = red + str + reset
+   str = green + str + reset
+   return str
+end
+def colorize.yellow(str)
+   yellow = "\x1b[33m"
+   reset = "\x1b[0m"
+   str = yellow + str + reset
+   return str
+end
+def colorize.cyan(str)
+   cyan = "\x1b[36m"
+   reset = "\x1b[0m"
+   str = cyan + str + reset
+   return str
+end
+def colorize.magenta(str)
+   magenta = "\x1b[35m"
+   reset = "\x1b[0m"
+   str = magenta + str + reset
    return str
 end
